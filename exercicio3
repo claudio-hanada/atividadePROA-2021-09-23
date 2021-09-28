@@ -1,0 +1,18 @@
+inicio
+	variavel real valor1
+	variavel real valor2
+	variavel real valor3
+	ler valor1
+	ler valor2
+	ler valor3
+	
+	se valor1 > valor2 e valor1 > valor3 entao
+		escreva ("O maior valor é ", valor1)
+	senao
+		se valor2 > valor1 e valor2 > valor3 entao
+			escreva ("O maior valor é ", valor2)
+		senao
+			escreva ("O maior valor é ", valor3)
+		fimSe
+	FimSe
+fim
