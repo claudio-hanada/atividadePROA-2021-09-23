@@ -1,0 +1,16 @@
+inicio
+	variavel real valor1
+	variavel real valor2
+	ler valor1
+	ler valor2
+	
+	se valor1 == valor2 entao
+		escreva("Valores iguais")
+	senao
+		se valor1 > valor2 entao
+			escreva("O primeiro é maior")
+		senao
+			escreva("O segundo é maior")
+		fimSe
+	fimSe
+fim
