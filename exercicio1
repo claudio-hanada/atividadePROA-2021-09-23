@@ -1,15 +1,16 @@
 inicio
 
-variavel real valor
+	variavel real valor
 
-ler valor
+	ler valor
 
-se valor > 0 entao
-	escrever "O valor é positivo."
-senao
-	se valor == 0 entao
-		escrever "O valor é zero."
+	se valor > 0 entao
+		escrever "O valor é positivo."
 	senao
-		escrever "O valor é negativo."
+		se valor == 0 entao
+			escrever "O valor é zero."
+		senao
+			escrever "O valor é negativo."
+		fimSe
 	fimSe
-fimSe
+fim
