@@ -1,0 +1,8 @@
+inicio
+
+	contador <- 1
+
+	Enquanto (contador < 11) faca
+		Escreval ("5 x ", contador, " = ", (5 * contador))
+	FimEnquanto
+fim
