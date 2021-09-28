@@ -1,0 +1,9 @@
+inicio
+	variavel real valor
+	contador <- 1
+	ler(valor)
+	
+	enquanto (contador < valor) faca
+	escreva(contador, ", ")
+	fimEnquanto
+fim
