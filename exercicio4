@@ -1,0 +1,29 @@
+inicio
+	variavel real valor1
+	variavel real valor2
+	variavel real valor3
+	ler valor1
+	ler valor2
+	ler valor3
+	
+	se (valor1 > valor2 e valor1 > valor3) entao
+		se valor2 > valor3 entao
+			escreva("Soma: " (valor1+valor2))
+		senao
+			escreva("Soma: " (valor1+valor3))
+		fimSe
+	senao
+		se (valor2 > valor1 e valor2 > valor3) entao
+			se valor1 > valor3 entao
+				escreva("Soma: " (valor2+valor1))
+			senao
+				escreva("Soma: " (valor2+valor3))
+			fimSe
+		senao
+			se valor1 > valor2 entao
+				escreva("Soma: " (valor3+valor1))
+			senao
+				escreva("Soma: " (valor3+valor2))
+			fimSe
+		FimSe
+fim
