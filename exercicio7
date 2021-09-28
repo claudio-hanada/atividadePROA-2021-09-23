@@ -3,5 +3,6 @@ inicio
 	
 	enquanto (contador < 11) faca
 		escreva(contador, ", ")
+		contador <- contador +1
 	fimEnquanto
 fim
