@@ -1,0 +1,8 @@
+inicio
+	contador <- 10
+	
+	enquanto (contador > 0) faca
+		escreva(contador, ", ")
+		contador <- contador-1
+	fimEnquanto
+fim
