@@ -10,5 +10,5 @@ inicio
 		contador <- contador +1
 	fimEnquanto
 	
-	escreva("Soma: ", total)
+	escreva("Soma: ", (total/10))
 fim
