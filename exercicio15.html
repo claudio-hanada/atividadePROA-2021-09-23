@@ -1,0 +1,16 @@
+<html>
+  <head>
+
+  </head>
+  <script>
+    var capacete = parseInt(8190)
+    parcelas = parseInt(prompt("Informe o número de parcelas"))
+    while(parcelas<parseInt(1) || parcelas >parseInt(16)){
+      parcelas = parseInt(prompt("Informe o número de parcelas"))
+    }
+    alert("capacete será pago em "+ parcelas+" de R$" + parseFloat(capacete/parcelas).toFixed(2))
+  </script>
+  <body>
+    
+  </body>
+</html>
