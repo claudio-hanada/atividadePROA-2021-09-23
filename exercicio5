@@ -1,0 +1,19 @@
+inicio
+	variavel real valor1
+	variavel real valor2
+	variavel real operacao
+	ler valor1
+	ler valor2
+	ler operacao
+	
+	escolha operacao
+		caso "+"
+			escreva (valor1 ," + ", valor2 , " = ", (valor1+valor2))
+		caso "-"
+			escreva (valor1 ," - ", valor2 , " = ", (valor1-valor2))
+		caso "/"
+			escreva (valor1 ," / ", valor2 , " = ", (valor1/valor2))
+		caso "*"
+			escreva (valor1 ," * ", valor2 , " = ", (valor1*valor2))
+	fimEscolha
+fim
