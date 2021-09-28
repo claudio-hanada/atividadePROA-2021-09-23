@@ -1,0 +1,12 @@
+inicio
+	variavel real valor
+	contador <- 1
+	
+	enquanto (contador < 11) faca
+		ler(valor)
+		se valor > 100 entao
+			escreva(valor, ", ")
+			contador <- contador +1
+		fimSe
+	fimEnquanto
+fim
