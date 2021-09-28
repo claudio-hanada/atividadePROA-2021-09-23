@@ -1,0 +1,14 @@
+inicio
+	variavel real valor
+	variavel real total
+	contador <- 1
+	
+	enquanto (contador < 11) faca
+		ler(valor)
+		escreva(valor, ", ")
+		total <- total + valor
+		contador <- contador +1
+	fimEnquanto
+	
+	escreva("Soma: ", total)
+fim
